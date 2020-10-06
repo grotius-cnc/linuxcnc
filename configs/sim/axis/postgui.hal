@@ -1,0 +1,4 @@
+loadusr -W lcec_conf ethercat-conf.xml
+loadrt lcec
+addf lcec.read-all servo-thread
+addf lcec.write-all servo-thread
